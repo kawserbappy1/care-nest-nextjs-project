@@ -47,7 +47,7 @@ const Navbar = () => {
           >
             Login
           </Link>
-          <button className="hidden lg:block bg-secondary px-4 py-3 text-base-100 cursor-pointer rounded-md">
+          <button className="hidden lg:block bg-primary px-4 py-3 text-base-100 cursor-pointer rounded-md transition-all duration-500 hover:bg-primary/80">
             Book Appoinment
           </button>
 
