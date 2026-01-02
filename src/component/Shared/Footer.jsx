@@ -135,7 +135,7 @@ const Footer = () => {
             Inatagram
           </h2>
           <div className="grid grid-cols-3 gap-1 mt-5">
-            <Image src={img1} className="w-28 h-16" alt="home-care"></Image>
+            <Image src={img1} className="w-28 h-16 " alt="home-care"></Image>
             <Image src={img2} className="w-28 h-16" alt="home-care"></Image>
             <Image src={img3} className="w-28 h-16" alt="home-care"></Image>
             <Image src={img4} className="w-28 h-16" alt="home-care"></Image>

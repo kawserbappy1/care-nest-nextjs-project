@@ -9,7 +9,7 @@ const MyLink = ({ onClick, href, children }) => {
     <Link
       onClick={onClick}
       href={href}
-      className={`${pathName.startsWith(href) && "text-primary underline"}`}
+      className={`${pathName.startsWith(href) && " text-secondary underline"}`}
     >
       {children}
     </Link>
